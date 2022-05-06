@@ -15,8 +15,18 @@ You can check if a number is divisible by another number by checking if x % y ==
 
 var x = 1;
 
-while (/* your stop condition goes here */) {
-    // check divisibility
-    // print Fizz, Buzz, or FizzBuzz
-    // increment x
-}
+while (x < 100) {
+    x = x + 1;
+    if ( x % 3 === 0 && x % 5 === 0 ){
+      console.log(x + ' Fizbuzz');
+      continue;
+    }
+    if( x % 3 === 0 ){
+      console.log(x + ' Fizz');
+      continue;
+    }
+    if( x % 5 === 0 ) {
+      console.log(x + ' Buzz');
+      continue;
+    }
+  }

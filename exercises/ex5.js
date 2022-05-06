@@ -26,3 +26,32 @@ var shirtSleeve = 8.47; // size M (medium)
 Then print N/A to the console because the measurements don't all match up with one particular size.
 
 */
+
+const shirtWidth = 19; 
+const shirtLength = 29.5; 
+const shirtSleeve = 8.60; 
+
+if ((shirtWidth >= 18 && shirtWidth < 20)
+    && (shirtLength >= 28 && shirtLength < 29)
+    && (shirtSleeve >= 8.13 && shirtSleeve < 8.38)) {
+        console.log("Your size is S")
+    } else if ((shirtWidth >= 20 && shirtWidth < 22)
+        && (shirtLength >= 29 && shirtLength < 30)
+        && (shirtSleeve >= 8.38 && shirtSleeve < 8.53)) {
+            console.log("Your size is M")
+    } else if ((shirtWidth >= 22 && shirtWidth < 24)
+        && (shirtLength >= 30 && shirtLength < 31)
+        && (shirtSleeve >= 8.63 && shirtSleeve < 8.88)) {
+            console.log("Your size is L")
+    } else if ((shirtWidth >= 24 && shirtWidth < 26)
+        && (shirtLength >= 31 && shirtLength < 33)
+        && (shirtSleeve >= 8.88 && shirtSleeve < 9.63)) {
+            console.log("Your size is XL")
+    } else if ((shirtWidth >= 26 && shirtWidth < 28)
+        && (shirtLength >= 33 && shirtLength < 34)
+        && (shirtSleeve >= 9.63 && shirtSleeve < 10.13)) {
+            console.log("Your size is XXL")
+        } else if (shirtWidth >= 28 && shirtLength >= 34 && shirtSleeve >= 10.13) {
+            console.log("Your size is XXXL");
+    } else { 
+            console.log("No match ") }
