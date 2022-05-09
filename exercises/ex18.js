@@ -5,8 +5,8 @@ cry();
 Returns: boohoo!
 */
 
-var cry = function crying() {
+const cry = function crying() {
     return 'boohoo!';
-  };
+  }
   
   console.log(cry());
