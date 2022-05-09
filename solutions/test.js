@@ -48,9 +48,20 @@
 //     //count = count + 1      
 // }
 
-hello();
+// hello();
 
-const hello = function () {
-    console.log("hello");
-}
+// const hello = function () {
+//     console.log("hello");
+// }
+
+// function add(a,b){
+//     console.log(a+b);
+//     // return a+b;
+// }
+
+// let sum = add(1,2);
+// console.log(sum);
+
+console.log("Bob" || " Marley");
+
 
